@@ -18,7 +18,7 @@ const Potential = () => {
 
                         <div className="grid grid-rows-2 space-y-4 md:space-y-8 ">
                             {/* 1 */}
-                            <div className="border  bg-white rounded-3xl shadow-md">
+                            <div className="border  bg-white rounded-3xl shadow-md" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
                                 <div className="rounded-3xl">
                                     <img src={firstColumnBigImage} alt="image" className="w-full rounded-[24px]" />
                                 </div>
@@ -28,9 +28,9 @@ const Potential = () => {
                                 </div>
                             </div>
                             {/* 2 */}
-                            <div className="grid grid-cols-2  gap-4 md:gap-8">
+                            <div className="grid grid-cols-2  gap-4 md:gap-8" >
                                 {/* 2.1 */}
-                                <div className="border bg-white rounded-3xl shadow-md">
+                                <div className="border bg-white rounded-3xl shadow-md" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
                                     <div className=" overflow-hidden h-40 md:h-80">
                                         <img src={firstColumnSmallImage1} alt="image" className="w-full h-full  object-contain rounded-[24px]" />
                                     </div>
@@ -40,7 +40,7 @@ const Potential = () => {
                                     </div>
                                 </div>
                                 {/* 2.2 */}
-                                <div className="border bg-white rounded-3xl shadow-md">
+                                <div className="border bg-white rounded-3xl shadow-md" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
                                     <div className=" overflow-hidden h-40 md:h-80">
                                         <img src={firstColumnSmallImage2} alt="image" className="w-full h-full  object-contain rounded-[24px]" />
                                     </div>
@@ -56,7 +56,7 @@ const Potential = () => {
                             {/* 2 */}
                             <div className="grid grid-cols-2  gap-4 md:gap-8">
                                 {/* 2.1 */}
-                                <div className="border bg-white rounded-3xl shadow-md">
+                                <div className="border bg-white rounded-3xl shadow-md" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
                                     <div className=" overflow-hidden h-40 md:h-80">
                                         <img src={secondColumnSmallImage1} alt="image" className="w-full h-full  object-contain rounded-[24px]" />
                                     </div>
@@ -66,7 +66,7 @@ const Potential = () => {
                                     </div>
                                 </div>
                                 {/* 2.2 */}
-                                <div className="border bg-white rounded-3xl shadow-md">
+                                <div className="border bg-white rounded-3xl shadow-md" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
                                     <div className=" overflow-hidden h-40 md:h-80">
                                         <img src={secondColumnSmallImage2} alt="image" className="w-full h-full  object-contain rounded-[24px]" />
                                     </div>
@@ -77,7 +77,7 @@ const Potential = () => {
                                 </div>
                             </div>
                             {/* 1 */}
-                            <div className=" border border-[#090B15] bg-[#090B15] rounded-3xl shadow-lg">
+                            <div className=" border border-[#090B15] bg-[#090B15] rounded-3xl shadow-lg" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
                                 <div className="space-y-2 px-5 md:px-10 pt-5 text-white">
                                     <div className="text-base md:text-xl md:font-semibold ">AI Chatting like never before</div>
                                     <p className="text-sm md:text-base text-gray-400 ">Lorem ipsum dolor sit amet consectetur. Molestie lorem arcu egestas varius donec.</p>

@@ -20,7 +20,7 @@ const Faq = () => {
                         <Text text="Whether you're curious about Silk's features, data handling capabilities, orintegration options, we've got you covered." />
                     </div>
                     <div className="space-y-8">
-                        <Accordion type="single" collapsible className="w-full">
+                        <Accordion type="single" collapsible className="w-full" data-aos="fade-up">
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
                                 <div className="space-y-4">
                                     <AccordionItem value="item-1">
@@ -68,7 +68,7 @@ const Faq = () => {
 
                             </div>
                         </Accordion>
-                        <div className="p-8 border bg-[#D2FF00] rounded-3xl">
+                        <div className="p-8 border bg-[#D2FF00] rounded-3xl" data-aos="fade-up">
                             <div className="flex flex-wrap justify-between items-center gap-4">
                                 <div className="flex-grow space-y-2">
                                     <div className="text-xl md:text-2xl font-semibold">Still have questions?</div>

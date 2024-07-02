@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <div>
             <Container>
-                <div className={"flex items-center justify-between py-[23.5px] mb-[44px]"}>
+                <div className={"flex items-center justify-between py-[23.5px] mb-[44px]"} data-aos="fade-up">
                     <div>
                         <img src={logo} alt={"logo"} />
                     </div>

@@ -17,7 +17,7 @@ const Features = () => {
 
                 <div className="space-y-10">
                     <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-4 md:gap-8">
-                        <div className="space-y-4">
+                        <div className="space-y-4" data-aos="fade-up">
                             <div className="text-lg md:text-3xl max-w-md md:font-semibold">
                                 Top Management, to help you
                                 see the bigger picture
@@ -29,16 +29,16 @@ const Features = () => {
                                 <Button text="Download App" icon={true} bgColorType="bg-[#D2FF00]" />
                             </div>
                         </div>
-                        <div>
+                        <div data-aos="fade-up">
                             <img className="object-cover object-center rounded" alt="hero" src={features1} />
                         </div>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-4 md:gap-8">
-                        <div>
+                        <div data-aos="fade-up">
                             <img className="object-cover object-center rounded" alt="hero" src={features2} />
                         </div>
-                        <div className="space-y-4">
+                        <div className="space-y-4" data-aos="fade-up">
                             <div className="text-lg md:text-3xl max-w-md md:font-semibold">
                                 Top Management, to help you
                                 see the bigger picture

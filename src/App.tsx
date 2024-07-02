@@ -23,7 +23,7 @@ function App() {
 
   useEffect(() => {
 
-    AOS.init({ once: true, easing: "ease-in-sine", delay: 50 });
+    AOS.init({ once: false, easing: "ease-in-sine", delay: 50 });
     AOS.refresh();
 
   }, []);
