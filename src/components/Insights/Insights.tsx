@@ -14,7 +14,7 @@ const Insights = () => {
                     <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-4 md:gap-8">
                         {Array.from({ length: 3 }, (_, i) => i).map((i) => (
                             <div key={i}
-                                className=" bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal" data-aos="fade-up" data-aos-delay={i + 1 * 100} data-aos-duration={i * 1000}>
+                                className=" bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal hover:cursor-pointer " data-aos="fade-up" data-aos-delay={i + 1 * 100} data-aos-duration={i * 1000}>
                                 <div className="overflow-hidden rounded-xl">
 
                                     <img src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500" className="w-full rounded-xl hover:scale-110 transition-all duration-500" />

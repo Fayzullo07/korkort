@@ -17,7 +17,7 @@ const PricePlans = () => {
 
                         {/* Basic plan */}
                         <div
-                            className="flex border flex-col max-w-lg p-8 px-12  text-center text-gray-900 bg-white  border-gray-100 rounded-lg shadow dark:border-gray-600 " data-aos="fade-up">
+                            className="flex border flex-col max-w-lg p-8 px-12 hover:shadow-xl duration-300 text-center text-gray-900 bg-white  border-gray-100 rounded-lg shadow dark:border-gray-600 cursor-pointer" data-aos="fade-up">
 
                             <div className="flex flex-col items-center justify-center my-8 space-y-4">
                                 <span className="text-5xl font-semibold">$49 USD</span>
@@ -73,7 +73,7 @@ const PricePlans = () => {
 
                         {/* Business plan */}
                         <div
-                            className="Md:scale-110 flex border flex-col max-w-lg p-8 px-12  text-center text-white bg-[#090B15]  border-gray-100 rounded-lg shadow dark:border-gray-600 " data-aos="fade-up">
+                            className="Md:scale-110 flex border flex-col max-w-lg p-8 px-12  text-center text-white bg-[#090B15] hover:shadow-xl duration-300  border-gray-100 rounded-lg shadow dark:border-gray-600 cursor-pointer" data-aos="fade-up">
 
                             <div className="flex flex-col items-center justify-center my-8 space-y-4">
                                 <span className="text-5xl font-semibold">$79 USD</span>
@@ -129,7 +129,7 @@ const PricePlans = () => {
 
                         {/* Enterprise plan */}
                         <div
-                            className="flex border flex-col max-w-lg p-8 px-12  text-center text-gray-900 bg-white  border-gray-100 rounded-lg shadow dark:border-gray-600 " data-aos="fade-up">
+                            className="flex border flex-col max-w-lg p-8 px-12  text-center text-gray-900 bg-white  border-gray-100 rounded-lg shadow dark:border-gray-600 hover:shadow-xl duration-300 cursor-pointer" data-aos="fade-up">
 
                             <div className="flex flex-col items-center justify-center my-8 space-y-4">
                                 <span className="text-5xl font-semibold">$90 USD</span>
@@ -182,9 +182,6 @@ const PricePlans = () => {
                                 Get started
                             </button>
                         </div>
-
-
-
                     </div>
                 </div>
             </Container>
