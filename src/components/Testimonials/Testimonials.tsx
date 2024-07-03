@@ -14,7 +14,6 @@ const Testimonials = () => {
                         {testimonialsData.map((item, index) => (
                             <div key={index}
                                 className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none"
-                                data-aos="fade-up" data-aos-delay={`${index + 1 * 100}`} data-aos-duration={`${index + 1 * 100}`}
                             >
                                 <p className="mb-8">
                                     {item.text}
